@@ -49,6 +49,7 @@ class Game
       else
         answer_count += 1
         get_next_player unless answer_count == players.length
+        puts "You got it wrong! Now its #{current_player[:name]}'s turn"
       end
     end
     
